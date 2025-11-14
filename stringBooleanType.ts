@@ -41,4 +41,8 @@ var isUserLoggedIn: Boolean = false;
 
 console.log("Is user logged in? " + isUserLoggedIn);
 
+var isAdmin: boolean = true;
+
+console.log("Is user an admin? " + isAdmin);
+
 //Possible values for the boolean type are true and false only

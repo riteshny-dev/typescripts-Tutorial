@@ -20,4 +20,6 @@ bool1 = false;
 console.log("Boolean value: " + bool1);
 var isUserLoggedIn = false;
 console.log("Is user logged in? " + isUserLoggedIn);
+var isAdmin = true;
+console.log("Is user an admin? " + isAdmin);
 //Possible values for the boolean type are true and false only
