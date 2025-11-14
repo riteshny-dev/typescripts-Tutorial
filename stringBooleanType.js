@@ -18,6 +18,4 @@ bool1 = true;
 console.log("Boolean value: " + bool1);
 bool1 = false;
 console.log("Boolean value: " + bool1);
-var isUserLoggedIn = false;
-console.log("Is user logged in? " + isUserLoggedIn);
 //Possible values for the boolean type are true and false only
