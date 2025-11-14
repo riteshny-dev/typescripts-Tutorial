@@ -37,4 +37,8 @@ bool1 = false;
 
 console.log("Boolean value: " + bool1);
 
+var isUserLoggedIn: Boolean = false;
+
+console.log("Is user logged in? " + isUserLoggedIn);
+
 //Possible values for the boolean type are true and false only
