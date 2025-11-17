@@ -1,4 +1,6 @@
+"use strict";
 //Number Data Type in TypeScript in depth
+Object.defineProperty(exports, "__esModule", { value: true });
 var a = 10;
 var b = 20;
 var c = a + b;
@@ -10,9 +12,9 @@ var a = 30;
 //Different ways to declare number datatype
 var hexaDecimal = 0xf00d;
 console.log("The value of hexaDecimal is: " + hexaDecimal);
-var binary = 42;
+var binary = 0b101010;
 console.log("The value of binary is: " + binary);
-var octal = 484;
+var octal = 0o744;
 console.log("The value of octal is: " + octal);
 //Type Conversion from string to number
 var stringNumber = "1234";
@@ -24,3 +26,4 @@ console.log("The value of strToNum2 is: " + strToNum2);
 //Type inference in number datatype - Automatically detect the data type
 var infNumber = 5678; //TypeScript automatically detects this as number datatype
 console.log("The value of infNumber is: " + infNumber);
+//# sourceMappingURL=numberdatatype.js.map

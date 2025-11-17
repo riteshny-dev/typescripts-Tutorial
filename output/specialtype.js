@@ -1,4 +1,6 @@
+"use strict";
 // Special type - Data Types
+Object.defineProperty(exports, "__esModule", { value: true });
 //any - can hold any type of value
 var randomValue = 10;
 console.log("Random Value (number):", randomValue);
@@ -18,3 +20,4 @@ function thhrowError(message) {
     throw new Error(message);
 }
 // Uncommenting the following line will throw an error
+//# sourceMappingURL=specialtype.js.map
