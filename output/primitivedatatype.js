@@ -1,4 +1,6 @@
+"use strict";
 //Primitive Data Types
+Object.defineProperty(exports, "__esModule", { value: true });
 //Number - integer and floating-point numbers
 var a = 10;
 var b = 20;
@@ -33,3 +35,4 @@ var sym1 = Symbol("user ID");
 var sym2 = Symbol("user ID");
 console.log("Symbol 1:", sym1);
 console.log("Symbol 2:", sym2);
+//# sourceMappingURL=primitivedatatype.js.map

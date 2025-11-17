@@ -19,13 +19,20 @@ console.log(arr6);
 //tuple - collection of different data types
 
 var tuple1: [number, string] = [1, "one"];
-var tuple2: [boolean, number, string] = [2, true, "two"];
+var tuple2: [boolean, number, string] = [true, 1, "two"];
 
 console.log(tuple1);
 console.log(tuple2);
 
 //object - collection of key-value pairs
-var object1 : {name1: string, age1:number,isStudent1:boolean} = {name1:"Alice", age1:20, isStudent1:true};
-var object2 : {project : any, year : number} = {project: "TypeScript", year:2024};
+var object1: { name1: string; age1: number; isStudent1: boolean } = {
+  name1: "Alice",
+  age1: 20,
+  isStudent1: true,
+};
+var object2: { project: any; year: number } = {
+  project: "TypeScript",
+  year: 2024,
+};
 console.log(object1);
 console.log(object2);

@@ -1,4 +1,6 @@
+"use strict";
 // Object Data Types
+Object.defineProperty(exports, "__esModule", { value: true });
 //array - collection of similar data types
 var arr1 = [1, 2, 3, 4, 5];
 var ar2 = [6, 7, 8, 9, 10];
@@ -14,11 +16,19 @@ console.log(arr5);
 console.log(arr6);
 //tuple - collection of different data types
 var tuple1 = [1, "one"];
-var tuple2 = [2, true, "two"];
+var tuple2 = [true, 1, "two"];
 console.log(tuple1);
 console.log(tuple2);
 //object - collection of key-value pairs
-var object1 = { name1: "Alice", age1: 20, isStudent1: true };
-var object2 = { project: "TypeScript", year: 2024 };
+var object1 = {
+    name1: "Alice",
+    age1: 20,
+    isStudent1: true,
+};
+var object2 = {
+    project: "TypeScript",
+    year: 2024,
+};
 console.log(object1);
 console.log(object2);
+//# sourceMappingURL=objectdatatype.js.map
