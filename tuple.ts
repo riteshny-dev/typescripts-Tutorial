@@ -42,3 +42,6 @@ type LocatorTuple = [locator: string, value: string];
 function findElement([locator, value]: LocatorTuple) {
   console.log(`Finding element with ${locator}: ${value}`);
 }
+
+findElement(["id", "submit-button"]);
+
