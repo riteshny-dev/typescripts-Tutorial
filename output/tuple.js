@@ -29,4 +29,5 @@ console.log(getUserData1);
 function findElement([locator, value]) {
     console.log(`Finding element with ${locator}: ${value}`);
 }
+findElement(["id", "submit-button"]);
 //# sourceMappingURL=tuple.js.map
